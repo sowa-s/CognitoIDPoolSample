@@ -1,0 +1,2 @@
+# CognitoIDPoolSample
+CognitoIDPoolのサンプルコード
