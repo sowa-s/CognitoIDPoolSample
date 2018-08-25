@@ -1,2 +1,2 @@
-# CognitoUserPoolExample
-CognitoUserPoolのサンプルコード
+# CognitoIDPoolSample
+CognitoIDPoolのサンプルコード
