@@ -8,7 +8,8 @@ target 'CognitoIDPoolSample' do
   # Pods for CognitoIDPoolSample
   pod 'FBSDKLoginKit'
   pod 'AWSMobileClient', '~> 2.6.13'
-  
+  pod 'AWSCognitoIdentityProvider', '~> 2.6.13'
+
   target 'CognitoIDPoolSampleTests' do
     inherit! :search_paths
     # Pods for testing
