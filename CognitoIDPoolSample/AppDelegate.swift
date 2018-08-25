@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  CognitoIDPoolSample
-//
-//  Created by 曽和 修平 on 2018/08/25.
-//  Copyright © 2018年 曽和 修平. All rights reserved.
-//
 
 import UIKit
 

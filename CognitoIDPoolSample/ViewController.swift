@@ -1,15 +1,13 @@
-//
-//  ViewController.swift
-//  CognitoIDPoolSample
-//
-//  Created by 曽和 修平 on 2018/08/25.
-//  Copyright © 2018年 曽和 修平. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var useridField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var signinButton: UIButton!
+    @IBOutlet weak var signOutButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +17,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func signin(_ sender: Any) {
+    }
+    
+    @IBAction func signOut(_ sender: Any) {
+    }
+    
 }
 
