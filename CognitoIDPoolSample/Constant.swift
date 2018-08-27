@@ -4,4 +4,6 @@ class Constant {
     static let clientId = "*****"
     static let clientSecret = "*****"
     static let poolId = "*****"
+    
+    static let dynamoDBTableName = "IDPoolRestrictionTable"
 }
