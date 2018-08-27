@@ -19,6 +19,8 @@
 		CEE3ADD22131506D0026B803 /* CognitoIDPoolSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3ADD12131506D0026B803 /* CognitoIDPoolSampleUITests.swift */; };
 		CEE3ADE0213178250026B803 /* CognitoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3ADDF213178250026B803 /* CognitoClient.swift */; };
 		CEE3ADE221317D380026B803 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3ADE121317D380026B803 /* Constant.swift */; };
+		CEE3ADE421319B9F0026B803 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3ADE321319B9F0026B803 /* LoggedInViewController.swift */; };
+		CEE3ADE621338C340026B803 /* MyIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3ADE521338C340026B803 /* MyIdProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		CEE3ADD32131506D0026B803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE3ADDF213178250026B803 /* CognitoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoClient.swift; sourceTree = "<group>"; };
 		CEE3ADE121317D380026B803 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CEE3ADE321319B9F0026B803 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		CEE3ADE521338C340026B803 /* MyIdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIdProvider.swift; sourceTree = "<group>"; };
 		D3799C96B54567A642718E5E /* Pods-CognitoIDPoolSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoIDPoolSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoIDPoolSampleUITests/Pods-CognitoIDPoolSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6781B9D9346357C78428AE7 /* Pods-CognitoIDPoolSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoIDPoolSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoIDPoolSampleTests/Pods-CognitoIDPoolSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		E853F44775F2317E748C43DE /* Pods_CognitoIDPoolSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoIDPoolSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +153,8 @@
 				CEE3ADBD2131506D0026B803 /* Info.plist */,
 				CEE3ADDF213178250026B803 /* CognitoClient.swift */,
 				CEE3ADE121317D380026B803 /* Constant.swift */,
+				CEE3ADE321319B9F0026B803 /* LoggedInViewController.swift */,
+				CEE3ADE521338C340026B803 /* MyIdProvider.swift */,
 			);
 			path = CognitoIDPoolSample;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
@@ -360,6 +367,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
@@ -396,6 +404,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE3ADB42131506C0026B803 /* ViewController.swift in Sources */,
+				CEE3ADE421319B9F0026B803 /* LoggedInViewController.swift in Sources */,
+				CEE3ADE621338C340026B803 /* MyIdProvider.swift in Sources */,
 				CEE3ADE0213178250026B803 /* CognitoClient.swift in Sources */,
 				CEE3ADB22131506C0026B803 /* AppDelegate.swift in Sources */,
 				CEE3ADE221317D380026B803 /* Constant.swift in Sources */,
